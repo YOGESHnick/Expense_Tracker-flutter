@@ -52,7 +52,7 @@ class _NewExpenseState extends State<NewExpense> {
                 Navigator.pop(context);
               }, 
               child: const Text('Cancel')),
-              TextButton(
+              TextButton( 
                 onPressed:(){
                   print(_titleController.text);
                   print(_amountController.text);
