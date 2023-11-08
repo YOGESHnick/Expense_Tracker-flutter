@@ -38,8 +38,20 @@ class _NewExpenseState extends State<NewExpense> {
     final amountIsInValid = enteredAmout==null || enteredAmout<=0 ;
     if(_titleController.text.trim().isEmpty || amountIsInValid || _selectedDate==null ){
       // show error
-    }
+      showDialog(context: context,
+        builder: (ctx)=> AlertDialog(
+        title:const Text("Invalid input"),
+        content:const Text("Please ensure that you add a valid title, amount, date and category"),
+        actions: [
+          TextButton(onPressed: (){Navigator.pop(ctx);}, 
+          child:const Text("Ok")
+          )
+        ],
+      )
+    );
+    return;
   }
+}
   @override
   void dispose() {
     _titleController.dispose();
