@@ -3,12 +3,12 @@ A cross-platform, expense tracking app!
 
 ## Setup :
 + Download the project
-+ Run this command in terminal, at directory
++ Run this command in a terminal, at the directory
 ```terminal
   flutter pub get
  ```
-+ pick a simulator
-+ hit `run`
++ Pick a simulator
++ hit ->  `run` in your IDE
 
 
 ## Overview :
