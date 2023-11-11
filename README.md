@@ -9,3 +9,4 @@ A cross-platform, expense tracking app!
   flutter pub get
  ```
 ## Overview :
+> **©** 2023 ZanderTech
