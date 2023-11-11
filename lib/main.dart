@@ -25,7 +25,7 @@ void main() {
             titleLarge: TextStyle(
               fontWeight: FontWeight.bold,
               color: kColorScheme.onSecondaryContainer,
-              fontSize: 25,
+              fontSize: 21,
             ),
           )
         ),
