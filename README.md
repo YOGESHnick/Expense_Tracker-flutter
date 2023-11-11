@@ -5,5 +5,6 @@ A new Flutter project.
 ## Getting Started
 Download the project
 
-```terminal ```
+```terminal
   flutter pub get
+ ```
