@@ -1,6 +1,6 @@
 # expense_tracker
 
-A new Flutter project.
+A cross-platform, expense tracking app!
 
 ## Getting Started
 + Download the project
