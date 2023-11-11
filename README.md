@@ -1,4 +1,6 @@
 # expense_tracker
+<img src="https://github.com/YOGESHnick/Expense_Tracker-flutter/assets/108965130/c69ac726-50e7-4e8f-bc14-5c78eae005e3" alt="Screenshot 1" width="300">
+
 
 A cross-platform, expense tracking app!
 
